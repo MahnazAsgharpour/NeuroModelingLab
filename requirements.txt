@@ -1,0 +1,34 @@
+# Core scientific computing
+numpy
+scipy
+pandas
+matplotlib
+
+# Machine learning
+scikit-learn
+torch
+torchvision
+
+# Computational neuroscience
+neuron
+
+# Scientific notebooks
+jupyter
+ipykernel
+
+# Utilities
+tqdm
+joblib
+
+# Image processing
+opencv-python
+Pillow
+
+# Data visualization
+seaborn
+
+# Optimization
+lmfit
+
+# File formats
+h5py
