@@ -1,0 +1,30 @@
+
+cff-version: 1.2.0
+title: "NeuroModelingLab"
+message: "If you use this software in your research, please cite this repository."
+type: software
+
+authors:
+  - family-names: "Asgharpour"
+    given-names: "Mahnaz"
+    orcid: "https://orcid.org/0000-0002-2669-5934"
+
+repository-code: "https://github.com/MahnazAsgharpour/NeuroModelingLab"
+
+license: MIT
+
+abstract: >
+  Scientific software for computational neuroscience and neuroengineering,
+  including Python and NEURON implementations for biophysical neuron modeling,
+  electrophysiological simulations, neuromodulation, optimization,
+  visualization, and reproducible computational research.
+
+keywords:
+  - Computational Neuroscience
+  - Scientific Software
+  - Python
+  - NEURON
+  - Neural Modeling
+  - Neuroengineering
+  - Electrophysiology
+  - Neuromodulation
