@@ -1,52 +1,104 @@
 # NeuroModelingLab
-**Scientific Software for Computational Neuroscience and Neuroengineering**
 
-NeuroModelingLab is an open-source collection of research software for computational neuroscience, EEG analysis, neuroengineering, and biophysical simulations. The repository contains Python and NEURON-based tools for developing, simulating, validating, and analyzing biophysical neuron models, with an emphasis on reproducible and modular scientific software.
+**Open-source scientific software for computational neuroscience, neural modeling, extracellular stimulation, and biophysical neuron simulations.**
 
-A key objective of this project is to translate neuronal models originally implemented in the **NEURON** simulator into standalone **Python** implementations. While NEURON is a powerful platform for electrophysiological simulations, Python-based implementations provide greater flexibility for software development, integration with modern scientific computing libraries (NumPy, SciPy, PyTorch, Matplotlib), automated parameter optimization, machine learning workflows, high-performance computing, and reproducible computational research. This approach also facilitates testing, maintenance, and future extension of the models without relying exclusively on simulator-specific environments.
+Developed by **Mahnaz Asgharpour, Ph.D.**, this repository contains modular Python implementations and computational neuroscience models developed for research in neural engineering, neurostimulation, and scientific computing.
+
+---
 
 ## Research Areas
 
 - Computational Neuroscience
-- Neural Modeling
-- Biophysical Neuron Models
-- Neuromodulation
-- Electrophysiological Simulations
+- Neural Engineering
+- Biophysical Neuron Modeling
+- Extracellular Electrical Stimulation
 - Scientific Software Development
-- Numerical Optimization
-- Data Analysis and Visualization
+- Biomedical Signal Processing
+
+---
 
 ## Repository Structure
 
-```text
-NeuroModelingLab/
-├── neuron_models/      # NEURON (.hoc/.mod) models
-├── python/             # Standalone Python implementations
-├── optimization/       # Parameter estimation and optimization
-├── visualization/      # Plotting and analysis tools
-├── examples/           # Example simulations
-├── docs/               # Documentation
-├── figures/            # Images and figures
-├── requirements.txt
-└── README.md
 ```
+NeuroModelingLab/
+│
+├── neuron_models/
+│   ├── transverse_field/
+│   ├── cable_models/
+│   ├── axon_activation/
+│   ├── purkinje/
+    └── golgi/
+│   
+│
+├── external_models/
+│
+├── loaders/
+│
+├── README.md
+├── requirements.txt
+├── LICENSE
+└── CITATION.cff
+```
+
+---
+
+## Implemented Models
+
+- Passive cable models
+- Myelinated and unmyelinated axon activation models
+- Purkinje cell models
+- Golgi cell models
+- Extracellular stimulation simulations
+- Threshold estimation algorithms
+- Blue Brain Project (BBP) neuron models
+
+---
+
+## Scientific Software
+
+This repository includes:
+
+- Modular Python implementations
+- NEURON-based simulations
+- Model loading utilities
+- Scientific visualization
+- Reproducible computational workflows
+
+---
 
 ## Technologies
 
 - Python
+- MATLAB
 - NEURON
 - NumPy
 - SciPy
-- Matplotlib
 - Pandas
-- Jupyter Notebook
+- Matplotlib
+- Git
 
-Additional scientific Python libraries are incorporated as individual projects evolve.
+---
 
-## Repository Status
+## Research Applications
 
-This repository is under active development and serves as a collection of research software developed during computational neuroscience and neuroengineering projects. New models, algorithms, and utilities will be added over time.
+- Computational neuroscience
+- Neural engineering
+- Neurostimulation
+- Biophysical neuron simulations
+- Scientific software development
 
-## License
+---
 
-This repository is intended for research and educational purposes. Please cite the relevant publications when using the scientific methods implemented in this repository.
+## About the Author
+
+**Mahnaz Asgharpour, Ph.D.**
+
+Biomedical Engineer | Computational Neuroscientist | Scientific Software Developer
+
+Research interests include:
+
+- Computational neuroscience
+- Neural modeling
+- Neurostimulation
+- Biomedical signal processing
+- Scientific software engineering
