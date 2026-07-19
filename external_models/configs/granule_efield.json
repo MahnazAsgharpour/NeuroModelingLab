@@ -1,0 +1,22 @@
+{
+    "cell_type": "granule",
+    "morphology": "../dbbs-lab/models/dbbs_models/morphologies/GranuleCell.swc",
+    "stim": {
+        "Efield": {
+            "mag": 1000,
+            "theta": 0.0,
+            "phi": 0.0,
+            "delay": 50,
+            "dur": 1
+        },
+        "IClamp": {
+            "amp": 0.015,
+            "delay": 50,
+            "dur": 0
+        }
+    },
+    "sim": {
+	"dur": 100,
+	"dt": 0.025
+    }
+}
