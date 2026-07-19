@@ -1,7 +1,7 @@
 # NeuroModelingLab
 **Scientific Software for Computational Neuroscience and Neuroengineering**
 
-NeuroModelingLab is an open-source collection of research software for computational neuroscience, neuroengineering, and scientific computing. The repository contains Python and NEURON-based tools for developing, simulating, validating, and analyzing biophysical neuron models, with an emphasis on reproducible and modular scientific software.
+NeuroModelingLab is an open-source collection of research software for computational neuroscience, EEG analysis, neuroengineering, and biophysical simulations. The repository contains Python and NEURON-based tools for developing, simulating, validating, and analyzing biophysical neuron models, with an emphasis on reproducible and modular scientific software.
 
 A key objective of this project is to translate neuronal models originally implemented in the **NEURON** simulator into standalone **Python** implementations. While NEURON is a powerful platform for electrophysiological simulations, Python-based implementations provide greater flexibility for software development, integration with modern scientific computing libraries (NumPy, SciPy, PyTorch, Matplotlib), automated parameter optimization, machine learning workflows, high-performance computing, and reproducible computational research. This approach also facilitates testing, maintenance, and future extension of the models without relying exclusively on simulator-specific environments.
 
