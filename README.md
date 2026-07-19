@@ -2,7 +2,7 @@
 
 **Open-source scientific software for computational neuroscience, neural modeling, extracellular stimulation, and biophysical neuron simulations.**
 
-Developed by **Mahnaz Asgharpour, Ph.D.**, this repository contains modular Python implementations and computational neuroscience models developed for research in neural engineering, neurostimulation, and scientific computing.
+Developed by **Mahnaz Asgharpour, Ph.D.**, this repository contains Python implementations and computational neuroscience models developed using the NEURON simulator for research in neural engineering and neurostimulation.
 
 ---
 
@@ -13,7 +13,6 @@ Developed by **Mahnaz Asgharpour, Ph.D.**, this repository contains modular Pyth
 - Biophysical Neuron Modeling
 - Extracellular Electrical Stimulation
 - Scientific Software Development
-- Biomedical Signal Processing
 
 ---
 
@@ -23,15 +22,12 @@ Developed by **Mahnaz Asgharpour, Ph.D.**, this repository contains modular Pyth
 NeuroModelingLab/
 │
 ├── neuron_models/
-│   ├── transverse_field/
-│   ├── cable_models/
 │   ├── axon_activation/
+│   ├── cable_models/
 │   ├── purkinje/
-    └── golgi/
-│   
+│   └── transverse_field/
 │
 ├── external_models/
-│
 ├── loaders/
 │
 ├── README.md
@@ -42,38 +38,33 @@ NeuroModelingLab/
 
 ---
 
-## Implemented Models
+## Included Models
 
-- Passive cable models
-- Myelinated and unmyelinated axon activation models
+### Neuron Models
+
 - Purkinje cell models
-- Golgi cell models
-- Extracellular stimulation simulations
-- Threshold estimation algorithms
-- Blue Brain Project (BBP) neuron models
+- Axon activation models
+- Passive cable models
+- Transverse electric field simulations
 
----
+### External Models
 
-## Scientific Software
+A collection of published biophysical neuron models, including cortical and cerebellar cell models with their corresponding NEURON mechanisms (.mod files).
 
-This repository includes:
+### Utilities
 
-- Modular Python implementations
-- NEURON-based simulations
 - Model loading utilities
-- Scientific visualization
-- Reproducible computational workflows
+- Simulation scripts
+- Scientific Python workflows
 
 ---
 
 ## Technologies
 
 - Python
-- MATLAB
 - NEURON
 - NumPy
 - SciPy
-- Pandas
 - Matplotlib
 - Git
 
@@ -83,22 +74,16 @@ This repository includes:
 
 - Computational neuroscience
 - Neural engineering
-- Neurostimulation
-- Biophysical neuron simulations
-- Scientific software development
+- Cerebellar modeling
+- Cortical neuron modeling
+- Extracellular stimulation
+- Biophysical simulations
 
 ---
 
-## About the Author
+## Author
 
 **Mahnaz Asgharpour, Ph.D.**
 
 Biomedical Engineer | Computational Neuroscientist | Scientific Software Developer
-
-Research interests include:
-
-- Computational neuroscience
-- Neural modeling
-- Neurostimulation
-- Biomedical signal processing
 - Scientific software engineering
